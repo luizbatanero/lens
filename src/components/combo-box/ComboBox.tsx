@@ -203,7 +203,7 @@ function ComboBoxContainer<OptionKey extends string>({
             <button lens-role="chevron" ref={buttonRef} {...buttonProps}>
               <Icon
                 name="chevron-down"
-                size="xs"
+                size="sm"
                 className="text-gray-400 dark:text-gray-300"
               />
             </button>

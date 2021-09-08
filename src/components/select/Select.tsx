@@ -170,7 +170,7 @@ function SelectContainer<OptionKey extends string>({
             </div>
             <Icon
               name="chevron-down"
-              size="xs"
+              size="sm"
               className="text-gray-400 dark:text-gray-300"
             />
           </button>
