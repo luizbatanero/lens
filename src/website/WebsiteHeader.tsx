@@ -43,7 +43,11 @@ const NavLinks = ({ absoluteLinks = false }: NavigationLinkProps) => (
       Quickstart
     </a>
     <a href={`${absoluteLinks ? "https://www.prisma.io" : ""}/docs/`}>Docs</a>
-    <a href={`${absoluteLinks ? "https://www.prisma.io" : ""}/docs/about/faq`}>
+    <a
+      href={`${
+        absoluteLinks ? "https://www.prisma.io" : ""
+      }/docs/about/prisma/faq`}
+    >
       FAQ
     </a>
     <a href={`${absoluteLinks ? "https://www.prisma.io" : ""}/community`}>
