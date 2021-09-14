@@ -120,9 +120,7 @@ export const DialogBody = ({ id, children }: DialogBodyProps) => {
               icon={icon}
               titleProps={titleProps}
             />
-            <Button variant="quiet" onPress={() => close()}>
-              <Icon name="x" size="md" />
-            </Button>
+            <Button variant="quiet" onPress={() => close()} icon="x"></Button>
           </header>
           <article>{children}</article>
         </div>
